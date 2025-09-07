@@ -37,7 +37,7 @@ Show how PS improves recognition of malignant cases and provides interpretabilit
 
 ---
 
-## 📘 Credit Card Fraud — `creditcard_ps_vs_baseline.ipynb`
+## 📘 Credit Card Fraud — `creditcard_ps-aco-knn_experiment.ipynb`
 
 ### Overview
 - **Dataset:** Credit Card Fraud (fraud = minority, normal = majority).  
@@ -59,10 +59,17 @@ Show how PS improves recognition of malignant cases and provides interpretabilit
 ### Purpose
 Show how PS can enhance fraud detection and guide resampling in real-world large datasets.
 
+> ⚠️ **Note:** The Credit Card dataset is not included in this repository.  
+> Please download it manually from [Kaggle](https://www.kaggle.com/mlg-ulb/creditcardfraud) and place it in:  
+> ```
+> data/creditcard.csv
+> ```
+
 ---
 
 ## 🔧 Requirements
+
 - Python ≥ 3.9  
-- `numpy`, `pandas`, `scikit-learn`, `networkx`, `matplotlib`, `imblearn`, `xgboost`, `joblib`  
+- Dependencies are listed in [`requirements.txt`](requirements.txt).  
 
 ---
